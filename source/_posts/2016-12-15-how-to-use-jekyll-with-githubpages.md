@@ -7,7 +7,7 @@ keywords: jekyll,github pages
 tags:
 - jekyll
 ---
-
+![jekyll](http://ojicajn2x.bkt.clouddn.com/17-2-17/46801530-file_1487334263124_bdcf.png)
 ## 1.安装jekyll
 在linux或mac系统中，打开终端，输入如下：
 

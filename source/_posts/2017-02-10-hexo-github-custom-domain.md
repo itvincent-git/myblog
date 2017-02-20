@@ -12,6 +12,8 @@ date: 2017-02-10 19:44:52
 
 > 买了个自己的域名，想把Github Pages绑定到这个域名下。结合了网上的文章及Github Pages的帮助文档，整理出下面的完整设置方式。
 
+![godaddy](http://ojicajn2x.bkt.clouddn.com/17-2-17/62145737-file_1487325408987_12b75.png)
+
 <!-- more -->
 
 # Github上设置

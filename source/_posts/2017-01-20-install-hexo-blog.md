@@ -7,6 +7,7 @@ tags:
 - hexo
 - github
 ---
+![hexo homepage](http://ojicajn2x.bkt.clouddn.com/17-2-17/59463456-file_1487333574052_13fc6.png)
 # hexo简介
 hexo是个快速、简洁且高效的博客框架。
 
@@ -21,6 +22,7 @@ hexo是个快速、简洁且高效的博客框架。
 
 - 丰富的插件
 >    Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。
+
 
 <!-- more -->
 
