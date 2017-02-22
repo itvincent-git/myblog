@@ -38,7 +38,7 @@ android {
     ...
 }
 ```
-    
+
 * 运行命令行，下载freeline插件。
 
 ```
@@ -52,13 +52,18 @@ Linux/Mac下执行: ./gradlew initFreeline
 gradlew initFreeline -Pmirror
 ```
 
+> 此时执行如果返回错误`Permission Deny`，是因为`gradlew`文件没有设置执行权限，执行下面命令行可增加权限，然后重新运行上面的命令：
+
+```
+$ chown +x gradlew
+```
+
 # 运行
 
 安装freeline的Android Studio插件。
 
 安装方式:
- 
+
 * 打开Android Studio
 * 进入Preferences → Plugins
 * 搜索freeline，然后安装
-
