@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: itVincent的博客 
+title: itVincent的博客
 subtitle: http://www.itvincent.info/
 description: Android,Java,Hexo
 author: Vincent Zhong
@@ -78,20 +78,20 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: 
+  repo:
     coding: git@git.coding.net:itvincent/itvincent.git
-    github: https://github.com/itvincent-git/itvincent-git.github.io.git    
+    github: https://github.com/itvincent-git/itvincent-git.github.io.git
   branch: master
 
 # Next Config
 baidu_site_verification: yqiPTn7Wmi
 avatar: http://ojicajn2x.bkt.clouddn.com/17-2-2/7850663-file_1486008757103_5b69.jpg
-duoshuo_shortname: itvincent-git
+disqus_shortname: itvincent
 baidu_analytics: 99a8f49fff6295f24c353dc89eb361e9
 google_analytics: UA-91457181-1
 tencent_analytics: 60548171
 search:
-  path: 
+  path:
 #  field: post
 #  format: html
 #  limit: 10000
@@ -111,18 +111,18 @@ nofollow:
 
 # hexo-all-minifier
 html_minifier:
-  enable: true
+  enable: false
   exclude:
 css_minifier:
-  enable: true
-  exclude: 
+  enable: false
+  exclude:
     - '*.min.css'
 js_minifier:
-  enable: true
+  enable: false
   mangle: true
   output:
   compress:
-  exclude: 
+  exclude:
     - '*.min.js'
 image_minifier:
   enable: false
@@ -130,4 +130,12 @@ image_minifier:
   multipass: false
   optimizationLevel: 2
   pngquant: false
-  progressive: false       
+  progressive: false
+
+# <!-- toc -->增加后会显示目录
+toc:
+  maxdepth: 2
+# 文章后面加上本文链接
+addlink:
+  before_text: 本文地址 # text before the post link
+  after_text:  # text after the post link
