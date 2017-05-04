@@ -1,0 +1,7 @@
+- 屏幕方向改变
+- 圆角
+- selector 顺序
+- dialog activity
+- progressbar
+- 两个imageview用同一个selector state_pressed
+- Proxy.java
