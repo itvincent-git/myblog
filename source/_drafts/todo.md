@@ -4,7 +4,16 @@
 - dialog activity
 - progressbar
 - 两个imageview用同一个selector state_pressed
-- Proxy.java
+- Proxy.java 动态代码实现
+```
+public interface IConfig {
+  @Param("param1")
+  String getParam1();
+
+  @Param("param2")
+  int getParam2();
+}
+```
 - 自己实现相互约束的位置，情人撩人的挂件
 - gravity/layout_gravity xml/java实现
 - 一步步流程模式，每步有状态，有先后关系
