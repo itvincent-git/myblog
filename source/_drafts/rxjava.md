@@ -7,7 +7,8 @@
 # Subject
 把一个数据比较容易的转换成rx来使用,被观察和观察者都是它
 ## AsyncSubject
-无论订阅的时候AsyncSubject是否completed,永远只收到最后一个值
+无论订阅的时候AsyncSubject是否completed,永远只收到最后一个值.
+注意发送数据调用`onNext()`之后,记得要`onComplete()`,不然observer不会监听到数据的.
 
 ## BehaviorSubject
 订阅时会收到最近发送的一个值
