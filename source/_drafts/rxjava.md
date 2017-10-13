@@ -4,6 +4,9 @@
 # first
 发送第一个满足条件的数据,然后则结束订阅
 
+# isEmpty
+返回当前的observable里有没有数据,true则没有数据
+
 # Subject
 把一个数据比较容易的转换成rx来使用,被观察和观察者都是它
 ## AsyncSubject
