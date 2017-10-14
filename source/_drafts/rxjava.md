@@ -7,6 +7,9 @@
 # isEmpty
 返回当前的observable里有没有数据,true则没有数据
 
+# combineLatest和zip
+zip是只有当2个observable都发新数据时,才会合并;而combineLatest是只要有1个observable有新数据,就会合并.
+
 # Subject
 把一个数据比较容易的转换成rx来使用,被观察和观察者都是它
 ## AsyncSubject
