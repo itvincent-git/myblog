@@ -1,14 +1,22 @@
-# compose
+# 操作符
+## compose
 使用转入的transformer将原来的observable转换成新的observable
 
-# first
+## first
 发送第一个满足条件的数据,然后则结束订阅
 
-# isEmpty
+## isEmpty
 返回当前的observable里有没有数据,true则没有数据
 
-# combineLatest和zip
+## combineLatest和zip
 zip是只有当2个observable都发新数据时,才会合并;而combineLatest是只要有1个observable有新数据,就会合并.
+
+## TakeUntil (Observable other)
+当other发射数据时,本Observable就会取消再发送数据,解除订阅
+
+## TakeUtil (Predicate) 
+当检查到Predicate返回true时,本Observable就会取消再发送数据,解除订阅
+
 
 # Subject
 把一个数据比较容易的转换成rx来使用,被观察和观察者都是它
@@ -24,12 +32,6 @@ zip是只有当2个observable都发新数据时,才会合并;而combineLatest是
 
 ## ReplaySubject
 无论何时订阅,所有历史数据都收到
-
-# TakeUntil (Observable other)
-当other发射数据时,本Observable就会取消再发送数据,解除订阅
-
-# TakeUtil (Predicate) 
-当检查到Predicate返回true时,本Observable就会取消再发送数据,解除订阅
 
 # Relay
 跟Subject相似的功能,不同处在于,Subject当观察者出现异常时(收到`onComplete`,`onError`,会导致被观察者也停止发送数据,Relay则不受影响.
