@@ -17,6 +17,8 @@ zip是只有当2个observable都发新数据时,才会合并;而combineLatest是
 ## TakeUtil (Predicate) 
 当检查到Predicate返回true时,本Observable就会取消再发送数据,解除订阅
 
+## repeatWhen
+当参数里的Function返回Observable时,则会重复发送当前的Observable,可实现定时执行任务.
 
 # Subject
 把一个数据比较容易的转换成rx来使用,被观察和观察者都是它
