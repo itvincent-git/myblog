@@ -40,3 +40,5 @@ zip是只有当2个observable都发新数据时,才会合并;而combineLatest是
 Relay有BehaviorRelay/PublishRelay/ReplayRelay三种,跟Subject下名称相同的功能是一样的.
 
 
+# 想法
+rx.xxx(Event1, Event2, Consumer);处理多个请求处理
