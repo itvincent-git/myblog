@@ -20,3 +20,6 @@ public interface IConfig {
 - serializable & paraclable & json
   - json不支持继承,serializable支持继承
 - constraitLayout http://blog.csdn.net/guolin_blog/article/details/53122387
+- rxjava2
+- *类似retrofit统一访问http/file/sharedpreference/sql/xml/preperties*
+- MappedByteBuffer操作文件,高性能文件存储
