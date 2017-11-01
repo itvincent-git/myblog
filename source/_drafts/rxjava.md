@@ -20,6 +20,9 @@ zip是只有当2个observable都发新数据时,才会合并;而combineLatest是
 ## repeatWhen
 当参数里的Function返回Observable时,则会重复发送当前的Observable,可实现定时执行任务.
 
+## distinct
+去掉重复的数据,`distinct(Func1)`则可以定义一个key作为判断重复的字段
+
 # Subject
 把一个数据比较容易的转换成rx来使用,被观察和观察者都是它
 ## AsyncSubject
