@@ -45,3 +45,12 @@ Relay有BehaviorRelay/PublishRelay/ReplayRelay三种,跟Subject下名称相同�
 
 # 想法
 rx.xxx(Event1, Event2, Consumer);处理多个请求处理
+
+# flatmap递归
+flatmap里面递归调用会非常有趣,例如可以递归调用`directory.listFiles()`不断获取文件列表
+
+# Observable不返回null
+在当不想返回数据到队列里的时候,不能直接返回null,因为reactive是没有null的,null将会导致链式调用无法进行下去,可以使用Observable.empty() 直接onComplete(),Observable.never()则不调用任何回调.
+
+# 结束
+
