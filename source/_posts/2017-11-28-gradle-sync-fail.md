@@ -1,3 +1,11 @@
+---
+title: Android gradle.zip文件下载失败
+categories: gradle
+keywords: gradle
+tags: gradle
+---
+
+
 ### Android Studio构建时出现下面的错误
 ```
 Gradle sync failed: Could not run build action using Gradle distribution 'xxxxxx/gradle-2.14.1-all.zip'.
