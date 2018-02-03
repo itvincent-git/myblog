@@ -4,7 +4,7 @@
 
 # Site
 title: itVincent的博客
-subtitle: http://www.itvincent.info/
+subtitle: http://www.itvincent.net/
 description: Android,Java,Hexo
 author: Vincent Zhong
 language: zh-Hans
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.itvincent.info/
+url: http://www.itvincent.net/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -79,7 +79,7 @@ theme: next
 deploy:
   type: git
   repo:
-    coding: git@git.coding.net:itvincent/itvincent.git
+    #coding: git@git.coding.net:itvincent/itvincent.git
     github: https://github.com/itvincent-git/itvincent-git.github.io.git
   branch: master
 
@@ -101,7 +101,7 @@ algolia:
   applicationID: 0C3UC3NIPB
   apiKey: 1fbb8c62696599536b818317fc2ea6bc
   adminApiKey: b35ece2fa3763fb9a8a3078a9693b1b6
-  indexName: www.itvincent.info
+  indexName: www.itvincent.net
   chunkSize: 5000
 
 # 增加nofollow到外链

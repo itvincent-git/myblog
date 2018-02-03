@@ -1,4 +1,4 @@
-# My Blog hosted on http://www.itvincent.info
+# My Blog hosted on http://www.itvincent.net
 
 My blog built on Hexo, and such plugins as folow:
 

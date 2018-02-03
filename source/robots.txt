@@ -11,5 +11,5 @@ Disallow: /css/
 Disallow: /images/
 Disallow: /lib/
 
-Sitemap: http://www.itvincent.info/sitemap.xml
-Sitemap: http://www.itvincent.info/baidusitemap.xml
+Sitemap: http://www.itvincent.net/sitemap.xml
+Sitemap: http://www.itvincent.net/baidusitemap.xml
