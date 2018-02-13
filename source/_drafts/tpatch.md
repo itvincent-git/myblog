@@ -2,7 +2,9 @@
 
 ### Tinker优点
 
-低侵入性
+- 低侵入性：只用改造application相关代码
+- 可对Java、resouce资源、so库打补丁
+- 兼容性好，兼容android O
 
 
 
@@ -59,6 +61,15 @@
 ### 进阶工作
 
 - TinkerLog改为MLog实现
+- **补丁应用后如果出现崩溃，会在崩溃N次之后回退补丁**
+
+
+
+
+### 注意事项
+
+- 除了TinkerApplication及子类需要排除在补丁外，其它排除的类要很小心，如果类之间有继承关系，并且父类是抽象类的话，打补丁时需要把抽象类也要打进去。[1]
+
 
 
 
@@ -69,3 +80,10 @@
 
 
 - 在loadPatch的时间比较长
+
+
+
+----
+
+[1]: http://www.siki.space/post/a_conclution_about_hotfix_in_android.html	"Android热补丁的一点总结"
+
