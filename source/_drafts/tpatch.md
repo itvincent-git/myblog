@@ -83,7 +83,6 @@
 
 
 
-----
+参考文档：
 
-[1]: http://www.siki.space/post/a_conclution_about_hotfix_in_android.html	"Android热补丁的一点总结"
-
+Android热补丁的一点总结: http://www.siki.space/post/a_conclution_about_hotfix_in_android.html
