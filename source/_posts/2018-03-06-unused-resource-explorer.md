@@ -53,6 +53,16 @@ date: 2018-03-06 21:17:48
 
 - Gradle执行成功后，会生成如下文件：**<module>/build/outputs/lint-results-debug.xml**，记下这个文件的位置，下面会用到。
 
+  > 如果项目比较大，lint执行全部的任务会耗时很久，其实我们只需要检查UnusedResources，没必要所有类型的问题都检查，通过在**<module>.gradle**文件中添加如下配置，即可只检查UnusedResources，大大提高速度。
+  >
+  > ```groovy
+  > android {
+  >     lintOptions {
+  >         check "UnusedResources"
+  >     }
+  > }
+  > ```
+
   ​
 
 #### 使用Unused Resource Explorer浏览lint.xml文件
