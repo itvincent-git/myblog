@@ -95,7 +95,7 @@ deploy:
 # # Next Config
 # baidu_site_verification: yqiPTn7Wmi
 # avatar: http://ojicajn2x.bkt.clouddn.com/17-2-2/7850663-file_1486008757103_5b69.jpg
-# disqus_shortname: itvincent
+disqus_shortname: itvincent
 # baidu_analytics: 99a8f49fff6295f24c353dc89eb361e9
 # google_analytics: UA-91457181-1
 # tencent_analytics: 60548171
