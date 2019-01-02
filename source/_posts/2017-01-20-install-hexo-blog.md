@@ -7,7 +7,7 @@ tags:
 - hexo
 - github
 ---
-![hexo homepage](http://ojicajn2x.bkt.clouddn.com/17-2-17/59463456-file_1487333574052_13fc6.png)
+![hexo homepage](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/17-2-17/59463456-file_1487333574052_13fc6.png)
 # hexo简介
 hexo是个快速、简洁且高效的博客框架。
 

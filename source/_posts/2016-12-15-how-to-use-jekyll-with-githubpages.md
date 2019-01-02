@@ -7,7 +7,7 @@ keywords: jekyll,github pages
 tags:
 - jekyll
 ---
-![jekyll](http://ojicajn2x.bkt.clouddn.com/17-2-17/46801530-file_1487334263124_bdcf.png)
+![jekyll](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/17-2-17/46801530-file_1487334263124_bdcf.png)
 ## 1.安装jekyll
 在linux或mac系统中，打开终端，输入如下：
 
@@ -34,15 +34,15 @@ Server running... press ctrl-c to stop.
 
 打开github.com，Start a project
 
-![](http://ojicajn2x.bkt.clouddn.com/17-1-9/3839245-file_1483958471681_15c66.png)
+![](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/17-1-9/3839245-file_1483958471681_15c66.png)
 
 或者从这里创建一个仓库
 
-![](http://ojicajn2x.bkt.clouddn.com/17-1-9/87356132-file_1483958471565_698e.png)
+![](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/17-1-9/87356132-file_1483958471565_698e.png)
 
 按照`username.github.io`的格式来创建一个仓库
 
-![](http://ojicajn2x.bkt.clouddn.com/17-1-9/54134474-file_1483958471420_c7b.png)
+![](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/17-1-9/54134474-file_1483958471420_c7b.png)
 
 创建一个index.html，内容为`hello world`，保存然后上传到github repository。
 

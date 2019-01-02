@@ -5,7 +5,7 @@ keywords: 'protobuf,android,使用说明,新手教程'
 tags: protobuf
 date: 2017-03-28 22:06:12
 ---
-![](http://ojicajn2x.bkt.clouddn.com/18-2-3/89483667.jpg)
+![](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/18-2-3/89483667.jpg)
 > protobuf nano是一个比较新的Protobuf官方实现，很适合在android应用中使用，相比原来的java实现，减少代码量和方法数，原为了这个问题而用C++实现的朋友们，可以换到这个实现，避免尴尬。
 
 <!-- more -->

@@ -21,7 +21,7 @@ date: 2017-02-06 17:58:38
 百度站点验证入口： http://zhanzhang.baidu.com/dashboard/index
 
 点击添加网站：
-![](http://ojicajn2x.bkt.clouddn.com/17-2-6/32775264-file_1486367579749_52d8.png)
+![](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/17-2-6/32775264-file_1486367579749_52d8.png)
 
 有三种验证方式：
 - 文件验证
@@ -93,10 +93,10 @@ baidu_push: true
 
 ### 站点验证
 打开如何将内容提交给 Google http://www.google.cn/intl/zh-CN/submit_content.html 
-![](http://ojicajn2x.bkt.clouddn.com/17-2-6/64619652-file_1486351808275_2ef1.png)
+![](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/17-2-6/64619652-file_1486351808275_2ef1.png)
 
 打开将您的网址添加到 Google 索引中 https://www.google.com/webmasters/tools/submit-url?hl=zh-CN 
-![](http://ojicajn2x.bkt.clouddn.com/17-2-6/93370609-file_1486351893453_5b72.png)
+![](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/17-2-6/93370609-file_1486351893453_5b72.png)
 
 验证你的网站是否你所拥有，如果使用了godaddy.com的DNS解释服务，Google默认支持，按指示操作一下即可，如果是其它DNS服务商，请按提示操作。
 
@@ -113,7 +113,7 @@ _除了使用DNS验证，也可以使用其它验证方式，跟Baidu相似。_
 
 - 左边菜单选择`抓取 -> Google 抓取工具`
 
-![](http://ojicajn2x.bkt.clouddn.com/17-2-6/25454670-file_1486361925084_6de6.png)
+![](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/17-2-6/25454670-file_1486361925084_6de6.png)
 
 - 分别选择“桌面”和“移动版”，点击“抓取”。
 
@@ -123,7 +123,7 @@ _除了使用DNS验证，也可以使用其它验证方式，跟Baidu相似。_
 - 左边菜单选择`抓取 -> 站点地图`。
 
 - 选择“添加站点地图”。
-![](http://ojicajn2x.bkt.clouddn.com/17-2-6/5191345-file_1486362236075_1280a.png)
+![](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/17-2-6/5191345-file_1486362236075_1280a.png)
 - 输入`sitemap.xml`，提交。
 
 ### 验证

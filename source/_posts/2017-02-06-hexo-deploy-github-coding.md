@@ -33,7 +33,7 @@ $ ssh-add
 ## 记录密钥
 在coding.net的`个人设置 》 SSH公钥` 添加这个公钥，如下图：
 
-![](http://ojicajn2x.bkt.clouddn.com/17-2-6/42704688-file_1486373356226_139a3.png)
+![](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/17-2-6/42704688-file_1486373356226_139a3.png)
 
 之后执行
 
@@ -50,7 +50,7 @@ Hello <Your Name>! You've connected to Coding.net via SSH successfully!
 _如果github上也是这个邮箱，那就不用再生成一次了，否则按照另外一个域名操作一次。_
 
 在github上`个人设置 》 SSH and GPG keys 》new SSH key`添加公钥，如下图：
-![](http://ojicajn2x.bkt.clouddn.com/17-2-6/624973-file_1486374591691_8ce.png)
+![](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/17-2-6/624973-file_1486374591691_8ce.png)
 
 # 安装hexo-deployer-git
 用于hexo部署到git的插件，如果之前安装过就不需要了。

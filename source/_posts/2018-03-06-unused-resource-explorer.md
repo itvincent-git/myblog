@@ -27,7 +27,7 @@ date: 2018-03-06 21:17:48
 
 #### 安装插件
 
-- [下载插件文件](http://ojicajn2x.bkt.clouddn.com/18-03-06-unused-resource-explorer.jar)
+- [下载插件文件](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/18-03-06-unused-resource-explorer.jar)
 
 - [使用本地文件安装方式安装到AndroidStudio](https://www.jetbrains.com/help/idea/installing-a-plugin-from-disk.html)
 
@@ -49,7 +49,7 @@ date: 2018-03-06 21:17:48
 - 首先第一步执行**lint**命令来生成分析报告xml文件。
 - 打开**Android Studio**的**Gradle Projects**面板，选择一个module下的**lint**命令，双击执行
 
-![](http://ojicajn2x.bkt.clouddn.com/unused-resource-explorer-2.png)
+![](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/unused-resource-explorer-2.png)
 
 - Gradle执行成功后，会生成如下文件：**<module>/build/outputs/lint-results-debug.xml**，记下这个文件的位置，下面会用到。
 
@@ -74,5 +74,5 @@ date: 2018-03-06 21:17:48
 
 
 
-![](http://ojicajn2x.bkt.clouddn.com/unused-resource-explorer-4.png)
+![](http://tuchuang-1256050518.cos.ap-chengdu.myqcloud.com/unused-resource-explorer-4.png)
 
